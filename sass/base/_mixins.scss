@@ -1,0 +1,10 @@
+@mixin size($width, $height: $width) {
+	width: $width;
+	height: $height;
+}
+
+
+body {
+	@include size(100%, 100%);
+	background-color: pink;
+}
